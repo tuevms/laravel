@@ -150,7 +150,7 @@ return [
     \Ytake\LaravelSmarty\SmartyConsoleServiceProvider::class, 
     
     SleepingOwl\Admin\AdminServiceProvider::class,
-
+\Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class,
 
     ],
 
@@ -209,6 +209,7 @@ return [
         'AdminForm'     => SleepingOwl\Admin\Form\AdminForm::class,
         'AdminTemplate' => SleepingOwl\Admin\Templates\Facade\AdminTemplate::class,
         'FormItem'      => SleepingOwl\Admin\FormItems\FormItem::class,
+        'Cart'            => \Gloudemans\Shoppingcart\Facades\Cart::class,
 
     ],
 

@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('test','TestControllers@index');
+Route::get('oto','TestControllers@index');
 Route::post('otp','TestControllers@form');
 // временный маршрут
 Route::get('/env', function() {
